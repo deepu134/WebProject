@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">`
+    <title>First Application</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Parisienne&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Parisienne&display=swap" rel="stylesheet"> 
+    <body>
+        <div class="header">
+        <h1>MANGALORE ZOOM</h1>
+        <h2>Coastal Feel</h2>
+        </div>
+        <div class="form">
+            <form action="post">
+                <label id="labels" for="Fname">User Name</label><br>
+                <input class="input "type="text" id="Uname" name="Uname"><br>
+                <label id="labels" for="lname">Password</label><br>
+                <input class="input" type="password" id="pass" name="password"><br>
+                <input id="LogB" type="submit" name="submit" value="LOGIN" onclick="display()" >
+                <input id="signB" type="button" name="SignIn" value="New User...?" onclick="display()" >
+            </form>
+        </div>
+        <div class="sayings">
+            <p>Fall in Love<br>With a Journey<br>Not An<br></p>
+            <p class="dest">DESTINATION</p>
+        </div>
+        <script>
+            function display(){
+                var a=document.getElementById("Uname").value;
+                window.alert(a);
+            }
+        </script>
+    </body>
+    </html>

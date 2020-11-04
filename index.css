@@ -1,0 +1,78 @@
+body{
+    background-image: url("login.jpg");
+
+}
+.header{
+    text-align :center;
+    padding-top: 30px;
+    padding-bottom: 50px;   
+}
+h1{
+    font-size: 50px;
+    color: grey;
+    letter-spacing: 20px;
+    text-shadow: 2px 2px 5px white;
+}
+h2{
+    color: lavender;
+    letter-spacing: 20px;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Parisienne', cursive;
+}
+#labels{
+    color: whitesmoke;
+    font-size:30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Parisienne', cursive;
+    padding-left: 10px;
+    padding-bottom: 20px ;
+    
+}
+.input{
+    border-style:none none groove;
+    padding: 10px 20px;
+    background: transparent;
+}
+.form{
+    position: fixed;
+text-align:left ;
+padding-top: 20px;
+}
+#LogB{
+    padding-block-start: 10px;
+    border-style: dashed;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 40px;
+}
+#signB{
+        padding: 20px 50px;
+        border-style: groove;
+        padding: 10px 100px;
+        border-radius: 20px;
+        position: relative;
+        left: 20pc;
+        border-color: red;
+        font-size: 20px;
+        font-family: Sofia;
+        background: transparent;
+        color: white;
+    }
+.sayings{
+    font-size: 20px; 
+    letter-spacing: 10px;
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Parisienne', cursive;
+    color:black;
+    text-align-last: center;
+    bottom: 30px;
+    left: 140px;
+}
+.dest{
+    font-size: 15px;
+    font-family:Sofia ;
+    letter-spacing: 10px;
+}
